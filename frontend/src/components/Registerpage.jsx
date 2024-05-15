@@ -159,6 +159,12 @@ export const Registerpage = () => {
                 </div>
               </div>
             </form>
+            <div className="text-center">
+              <h1 className="font-semibold">
+                Already Have an account?{" "}
+                <span className="underline cursor-pointer">Login</span>
+              </h1>
+            </div>
           </div>
         </div>
       </div>

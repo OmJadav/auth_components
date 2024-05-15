@@ -79,13 +79,19 @@ export const Loginpage = () => {
               </div>
 
               <div className="flex -mx-3">
-                <div className="w-full px-3 mb-5">
+                <div className="w-full px-3 mb-7">
                   <button className="block w-full  mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">
                     LOGIN
                   </button>
                 </div>
               </div>
             </form>
+            <div className="text-center">
+              <h1 className="font-semibold">
+                Don't Have an account?{" "}
+                <span className="underline cursor-pointer">Register</span>
+              </h1>
+            </div>
           </div>
           <SideImage />
         </div>
